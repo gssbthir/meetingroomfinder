@@ -20,19 +20,6 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
-    },
-    {
-      "id": "test",
-      "name": "test",
-      "folder": true,
-      "screens": [
-        {
-          "id": "blank",
-          "name": "BLANK",
-          "sourceScreenId": "app.blank",
-          "sourceAppId": "_blank"
-        }
-      ]
     }
   ],
   "sourceAppId": "_blank",
