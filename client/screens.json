@@ -22,8 +22,8 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "blank1",
-      "name": "BLANK1",
+      "id": "home",
+      "name": "Home",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "extraViews": [

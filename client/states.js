@@ -33,12 +33,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.blank1', {
+    }).state('app.home', {
         views: {
             app: {
-                controller: 'app_blank1',
+                controller: 'app_home',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.blank1');
+                    return app.templateProvider('app.home');
                 }
             }
         }
