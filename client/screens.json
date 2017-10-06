@@ -25,7 +25,14 @@
       "id": "test",
       "name": "test",
       "folder": true,
-      "screens": []
+      "screens": [
+        {
+          "id": "blank",
+          "name": "BLANK",
+          "sourceScreenId": "app.blank",
+          "sourceAppId": "_blank"
+        }
+      ]
     }
   ],
   "sourceAppId": "_blank",
