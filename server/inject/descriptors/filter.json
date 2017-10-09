@@ -3,7 +3,8 @@
   "comment": "filter",
   "properties": {
     "buildings": {
-      "type": "select"
+      "type": "select",
+      "selector": "select ng-pristine ng-valid ng-not-empty ng-touched"
     },
     "floor": {
       "type": "select"
