@@ -29,6 +29,12 @@
       "extraViews": [
         "phone-landscape"
       ]
+    },
+    {
+      "id": "filter",
+      "name": "Filter",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",

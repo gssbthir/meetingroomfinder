@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.filter', {
+        views: {
+            app: {
+                controller: 'app_filter',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.filter');
+                }
+            }
+        }
     });
 });
