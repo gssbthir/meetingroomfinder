@@ -2,6 +2,27 @@
   "filter": {
     "type": "object",
     "comment": "filter",
-    "properties": {}
+    "properties": {
+      "buildings": {
+        "type": "select"
+      },
+      "floor": {
+        "type": "select"
+      },
+      "rooms": {
+        "type": "select"
+      },
+      "dateSelection": {
+        "type": "date",
+        "format": "MM/DD/YYYY"
+      },
+      "time": {
+        "type": "time",
+        "format": "HH:mm"
+      },
+      "capacity": {
+        "type": "select"
+      }
+    }
   }
 }
