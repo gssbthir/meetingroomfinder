@@ -25,5 +25,12 @@
       "type": "select"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "filter"
+      ]
+    }
+  ]
 }
