@@ -4,7 +4,8 @@
   "properties": {
     "buildings": {
       "type": "select",
-      "control": "select"
+      "control": "select",
+      "selector": "[ng-model=\"ctrl.userFloor\"]"
     },
     "floor": {
       "type": "select",
