@@ -5,10 +5,7 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": {
-        "fn": "",
-        "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched"
-      }
+      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched"
     },
     "floor": {
       "type": "select",
