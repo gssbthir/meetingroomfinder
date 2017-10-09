@@ -27,12 +27,5 @@
       "type": "select"
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "screens": [
-        "filter"
-      ]
-    }
-  ]
+  "connect": []
 }
