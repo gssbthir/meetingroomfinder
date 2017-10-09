@@ -10,7 +10,8 @@
     "floor": {
       "type": "select",
       "control": "select",
-      "selectContains": "floor"
+      "selectContains": "floor",
+      "selector": ".ctrl.userFloor"
     },
     "rooms": {
       "type": "select"
