@@ -5,7 +5,7 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": "[ng-model=\"ctrl.userBuilding\"]"
+      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched"
     },
     "floor": {
       "type": "select",
