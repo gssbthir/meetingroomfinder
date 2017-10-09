@@ -9,8 +9,7 @@
     "floor": {
       "type": "select",
       "control": "select",
-      "selectContains": "floor",
-      "selector": "[ng-model=\"ctrl.userFloor\"]"
+      "selectContains": "floor"
     },
     "rooms": {
       "type": "select"
