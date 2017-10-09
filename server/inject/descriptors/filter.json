@@ -10,7 +10,7 @@
       "type": "select",
       "control": "select",
       "selectContains": "floor",
-      "selector": "#ctrl.userFloor"
+      "selector": "angi"
     },
     "rooms": {
       "type": "select"
