@@ -13,7 +13,8 @@
                 <label class="item  item-input item-select-icon positive-icon"
                     data-comp-id="selectInput.1">
                     <span class="input-label">select Buildings</span>
-                    <select></select>
+                    <select ng-model="data.buildings.selected"
+                        ng-options="item as item.label for item in data.buildings.options"></select>
                 </label>
             </div>
         </div>
@@ -25,7 +26,8 @@
                 <label class="item  item-input item-select-icon positive-icon"
                     data-comp-id="selectInput.2">
                     <span class="input-label">Select Floor</span>
-                    <select></select>
+                    <select ng-model="data.floor.selected"
+                        ng-options="item as item.label for item in data.floor.options"></select>
                 </label>
             </div>
         </div>
@@ -37,7 +39,8 @@
                 <label class="item  item-input item-select-icon positive-icon"
                     data-comp-id="selectInput.3">
                     <span class="input-label">Select Rooms</span>
-                    <select></select>
+                    <select ng-model="data.rooms.selected"
+                        ng-options="item as item.label for item in data.rooms.options"></select>
                 </label>
             </div>
         </div>
@@ -47,7 +50,8 @@
                     data-comp-id="dateInput.1">
                     <span class="input-label">Date</span>
                     <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
-                        ng-model-options="{allowInvalid: true}" type="date">
+                        ng-model-options="{allowInvalid: true}" ng-model="data.dateSelection"
+                        type="date">
                 </label>
             </div>
         </div>
@@ -56,7 +60,7 @@
                 <label class="item item-input item-time-icon positive-icon"
                     data-comp-id="timeInput.1">
                     <span class="input-label">Time</span>
-                    <input time-format="HH:mm" type="time">
+                    <input ng-model="data.time" time-format="HH:mm" type="time">
                 </label>
             </div>
             <div class="col" data-comp-id="column.9"></div>
@@ -69,7 +73,8 @@
                 <label class="item  item-input item-select-icon positive-icon"
                     data-comp-id="selectInput.4">
                     <span class="input-label">Select Capacity</span>
-                    <select></select>
+                    <select ng-model="data.capacity.selected"
+                        ng-options="item as item.label for item in data.capacity.options"></select>
                 </label>
             </div>
         </div>
