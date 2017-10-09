@@ -4,7 +4,7 @@
   "properties": {
     "buildings": {
       "type": "select",
-      "selector": "#ctrl.userBuilding",
+      "selector": "ctrl.userBuilding",
       "control": "select"
     },
     "floor": {
