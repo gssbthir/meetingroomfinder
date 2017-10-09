@@ -7,7 +7,7 @@
       "control": "select",
       "selector": {
         "fn": "ctrl.getFloors()",
-        "selector": "[ng-model=\"ctrl.userBuilding\"]"
+        "selector": "[ng-model=\"app_filter.userBuilding\"]"
       }
     },
     "floor": {
