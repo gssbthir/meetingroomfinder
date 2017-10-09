@@ -5,7 +5,10 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": "[ng-model=\"ctrl.userBuilding\"]"
+      "selector": {
+        "fn": "",
+        "selector": "[ng-model=\"ctrl.userBuilding\"]"
+      }
     },
     "floor": {
       "type": "select",
