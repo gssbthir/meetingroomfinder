@@ -5,8 +5,7 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": ".form-group",
-      "selectContains": "Buildings"
+      "selector": ".form-group"
     },
     "floor": {
       "type": "select",
