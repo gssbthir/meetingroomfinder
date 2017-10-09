@@ -5,8 +5,7 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched",
-      "selectContains": "buildings"
+      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched"
     },
     "floor": {
       "type": "select",
