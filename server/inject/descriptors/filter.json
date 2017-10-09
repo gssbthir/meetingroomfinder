@@ -5,10 +5,7 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": {
-        "fn": "ctrl.getFloors()",
-        "selector": "[ng-model=\"app_filter.userBuilding\"]"
-      }
+      "selector": "[ng-model=\"app_filter.userBuilding\"]"
     },
     "floor": {
       "type": "select",
