@@ -6,7 +6,7 @@
       "type": "select",
       "control": "select",
       "selector": {
-        "fn": "",
+        "fn": "ctrl.getFloors()",
         "selector": "[ng-model=\"ctrl.userBuilding\"]"
       }
     },
