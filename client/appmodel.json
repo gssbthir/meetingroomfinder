@@ -1,1 +1,7 @@
-{}
+{
+  "filter": {
+    "type": "object",
+    "comment": "filter",
+    "properties": {}
+  }
+}
