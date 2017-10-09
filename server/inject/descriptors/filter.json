@@ -5,8 +5,7 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": "[ng-model=\"ctrl.userBuilding\"]",
-      "selectContains": "ctrl.getFloors()"
+      "selector": "[ng-model=\"ctrl.userBuilding\"]"
     },
     "floor": {
       "type": "select",
