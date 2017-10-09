@@ -1,0 +1,10 @@
+{
+  "name": "meetingroomfinder",
+  "version": "5.1.3",
+  "private": true,
+  "description": "PowWow transformation",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon start.js | bunyan -o short --color"
+  }
+}

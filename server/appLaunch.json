@@ -1,0 +1,17 @@
+{
+  "remoteAppConfig": {
+    "loginType": "process",
+    "cmd": "node",
+    "args": [
+      "<%= transformAppsDir %>/meetingroomfinder/server/start.js",
+      "--sessionID",
+      ":sessionID"
+    ]
+  },
+  "appData": {
+    "appType": "local",
+    "appZip": "<%= staticStorage %>meetingroomfinder/client.zip",
+    "sessionCheck": false,
+    "smartuxApp": "<%= staticStorage %>meetingroomfinder/smartuxApp.json"
+  }
+}
