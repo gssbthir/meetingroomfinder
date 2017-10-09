@@ -4,7 +4,7 @@
   "properties": {
     "buildings": {
       "type": "select",
-      "selector": "select ng-pristine ng-valid ng-not-empty ng-touched",
+      "selector": "<pseudo:before>",
       "control": "select"
     },
     "floor": {
