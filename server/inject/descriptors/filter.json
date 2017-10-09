@@ -4,8 +4,7 @@
   "properties": {
     "buildings": {
       "type": "select",
-      "control": "select",
-      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched"
+      "control": "select"
     },
     "floor": {
       "type": "select",
