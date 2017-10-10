@@ -5,7 +5,6 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": ".select.ng-pristine.ng-untouched.ng-valid.ng-not-empty",
       "selectContains": "'[ng-model='buildings']'"
     },
     "floor": {
