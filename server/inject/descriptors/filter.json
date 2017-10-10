@@ -4,8 +4,7 @@
   "properties": {
     "buildings": {
       "type": "select",
-      "control": "select",
-      "selectContains": "'[ng-model='buildings']'"
+      "control": "select"
     },
     "floor": {
       "type": "select",
