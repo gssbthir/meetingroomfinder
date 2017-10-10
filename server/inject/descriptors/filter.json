@@ -15,8 +15,7 @@
       "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched"
     },
     "rooms": {
-      "type": "select",
-      "selector": "[ng-model='rooms']"
+      "type": "select"
     },
     "dateSelection": {
       "type": "date",
