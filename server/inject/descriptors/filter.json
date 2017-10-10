@@ -5,7 +5,7 @@
     "buildings": {
       "type": "select",
       "control": "select",
-      "selector": "['ngModel','select']"
+      "selector": "['ngModel','buildings']"
     },
     "floor": {
       "type": "select",
