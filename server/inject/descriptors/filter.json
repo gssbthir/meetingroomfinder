@@ -16,7 +16,8 @@
     },
     "rooms": {
       "type": "select",
-      "selectContains": "[ng-model='rooms']"
+      "selectContains": "[ng-model='rooms']",
+      "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched"
     },
     "dateSelection": {
       "type": "date",
