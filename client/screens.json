@@ -48,12 +48,6 @@
       "name": "test",
       "folder": true,
       "screens": []
-    },
-    {
-      "id": "test",
-      "name": "test",
-      "folder": true,
-      "screens": []
     }
   ],
   "sourceAppId": "_blank",
