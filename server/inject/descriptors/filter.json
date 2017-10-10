@@ -16,7 +16,7 @@
     },
     "rooms": {
       "type": "select",
-      "selector": "'[ng-model=\"rooms\"]'"
+      "selector": "[ng-model='rooms']"
     },
     "dateSelection": {
       "type": "date",
