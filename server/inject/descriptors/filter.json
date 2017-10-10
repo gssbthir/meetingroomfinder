@@ -9,7 +9,6 @@
     "floor": {
       "type": "select",
       "control": "select",
-      "selectContains": "floor",
       "selector": ".select.ng-pristine.ng-valid.ng-not-empty.ng-touched"
     },
     "rooms": {
