@@ -4,8 +4,7 @@
   "properties": {
     "buildings": {
       "type": "select",
-      "control": "select",
-      "selector": "option"
+      "control": "select"
     },
     "floor": {
       "type": "select",
