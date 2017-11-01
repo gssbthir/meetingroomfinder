@@ -42,6 +42,12 @@
       "name": "test",
       "folder": true,
       "screens": []
+    },
+    {
+      "id": "dashboard",
+      "name": "dashboard",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
